@@ -13,7 +13,6 @@ pipeline {
 
         stage('Run Gazebo + test') {
             steps {
-                sh 'xhost +local:root'
                 sh 'sudo docker rm -f tortoisebot_test || true'
 
                 sh '''
