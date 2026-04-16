@@ -9,6 +9,10 @@ Required version:
 containerd.io=1.7.23-1
 ```
 If Docker is not installed, use the following steps:
+
+**Note: The commands below are split into separate steps so you can verify that each one completes before moving on.**
+
+
 ```bash
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
